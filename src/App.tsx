@@ -1,26 +1,31 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+/*
+ * @Author: your name
+ * @Date: 2021-08-13 18:48:49
+ * @LastEditTime: 2021-08-14 12:44:09
+ * @LastEditors: Please set LastEditors
+ * @Description: In User Settings Edit
+ * @FilePath: /my-test-app/src/App.tsx
+ */
+import React, { useState } from "react";
+import { Button } from "antd";
+import "./styles/App.less";
+
+
+import Sider from '@/Layout/Sider/Sider'
+
 
 function App() {
+  const [Flag, setFlag] = useState(false);
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="App  h-screen w-full bg-lly_bg  border-8 ">
+
+
+  
+     
+    <Sider/>
     </div>
-  );
+  );  
 }
 
 export default App;

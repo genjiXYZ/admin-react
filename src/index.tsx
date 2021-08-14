@@ -1,6 +1,14 @@
+/*
+ * @Author: your name
+ * @Date: 2021-08-13 18:48:49
+ * @LastEditTime: 2021-08-13 20:27:05
+ * @LastEditors: Please set LastEditors
+ * @Description: In User Settings Edit
+ * @FilePath: /my-test-app/src/index.tsx
+ */
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
+
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 
